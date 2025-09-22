@@ -8,7 +8,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 from apscheduler.schedulers.background import BackgroundScheduler
 
 # --- Конфигурация ---
-TOKEN = os.environ.get("BOT_TOKEN")  # <-- Добавь этот секрет в Render (Environment Variables)
+TOKEN = os.environ.get("BOT_TOKEN")
 ADMIN_IDS = [123456789]  # <-- Замени на свой Telegram ID
 DB_PATH = "bot.db"
 
